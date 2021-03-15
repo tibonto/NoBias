@@ -1,0 +1,710 @@
+@prefix : <urn:webprotege:ontology:cc2e4a60-52f2-4158-b498-3edd1ee537be#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <urn:webprotege:ontology:cc2e4a60-52f2-4158-b498-3edd1ee537be> .
+
+<urn:webprotege:ontology:cc2e4a60-52f2-4158-b498-3edd1ee537be> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#comment
+<http://www.w3.org/2004/02/skos/core#comment> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv
+<http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RMbL6TYZgKyjbqiHqar7ML> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB> ,
+                                                                    <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL> ;
+                                                         rdfs:label "subClassOf"@en .
+
+
+###  http://webprotege.stanford.edu/R8Qopdiq2mmjk8msUB3qXN9
+<http://webprotege.stanford.edu/R8Qopdiq2mmjk8msUB3qXN9> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R8g0TnyuxXG7paZd6GKNV4D> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/RiXYvJ4rwLkJ8ztnVL6v8t> ;
+                                                         rdfs:label "hasDiversityMeasurement"@en .
+
+
+###  http://webprotege.stanford.edu/R8dQqZa5tgelHWOfqgBdrGX
+<http://webprotege.stanford.edu/R8dQqZa5tgelHWOfqgBdrGX> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RClWSDGpdhnAvvXWP5UThvp> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/R7N5Lx8DfWRbYP424ESOXAT> ;
+                                                         rdfs:label "withPurposeOf"@en .
+
+
+###  http://webprotege.stanford.edu/R8sbpaLNpA4nvB1MLJuxMP6
+<http://webprotege.stanford.edu/R8sbpaLNpA4nvB1MLJuxMP6> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RiXYvJ4rwLkJ8ztnVL6v8t> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/RBRnioX7qp0MOYsMNpT63eX> ,
+                                                                    <http://webprotege.stanford.edu/RBUC0hoVGEaoxROJhzm8suK> ;
+                                                         rdfs:label "isDiversityMeasurementBasedOn"@en .
+
+
+###  http://webprotege.stanford.edu/R9QAJk0yrm0QqGcOywCs0Y8
+<http://webprotege.stanford.edu/R9QAJk0yrm0QqGcOywCs0Y8> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R7I5QvZC8Zi05rTsXwM6Ck3> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/RClWSDGpdhnAvvXWP5UThvp> ;
+                                                         rdfs:label "orginatedFrom"@en .
+
+
+###  http://webprotege.stanford.edu/R9msKp5gdxhy7BsJphdHKUd
+<http://webprotege.stanford.edu/R9msKp5gdxhy7BsJphdHKUd> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RClWSDGpdhnAvvXWP5UThvp> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/RCq9YnWJfqqrps354Zc66bL> ;
+                                                         rdfs:label "createdBy"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://webprotege.stanford.edu/R71v21idZ7Eo3x8u8gLzsft
+<http://webprotege.stanford.edu/R71v21idZ7Eo3x8u8gLzsft> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7UtnUURJCEioBJJEofiYIU> ;
+                                                         rdfs:label "SubgroupFairness"@en .
+
+
+###  http://webprotege.stanford.edu/R7I5QvZC8Zi05rTsXwM6Ck3
+<http://webprotege.stanford.edu/R7I5QvZC8Zi05rTsXwM6Ck3> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RMbL6TYZgKyjbqiHqar7ML> ;
+                                                         rdfs:label "Data"@en .
+
+
+###  http://webprotege.stanford.edu/R7N5Lx8DfWRbYP424ESOXAT
+<http://webprotege.stanford.edu/R7N5Lx8DfWRbYP424ESOXAT> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RClWSDGpdhnAvvXWP5UThvp> ;
+                                                         rdfs:label "Purpose"@en .
+
+
+###  http://webprotege.stanford.edu/R7Palj47o99IepMNIPFl2ti
+<http://webprotege.stanford.edu/R7Palj47o99IepMNIPFl2ti> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB>
+                                                                         ] ;
+                                                         rdfs:label "ConfirmationBias"@en .
+
+
+###  http://webprotege.stanford.edu/R7TC5RJ1yZi5D2y4DuzJb59
+<http://webprotege.stanford.edu/R7TC5RJ1yZi5D2y4DuzJb59> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RC62eUhX5vHIhM2WrA5IOv9> ;
+                                                         rdfs:label "IndirectDiscrimination"@en .
+
+
+###  http://webprotege.stanford.edu/R7UtnUURJCEioBJJEofiYIU
+<http://webprotege.stanford.edu/R7UtnUURJCEioBJJEofiYIU> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9m8F7jcnO8gkfV4dzURArV> ;
+                                                         rdfs:label "GroupFairness"@en ;
+                                                         <http://www.w3.org/2004/02/skos/core#comment> "Group fairness is what attempts to address statistical parity for members of different protected groups."^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R83geWjPno4je9PvZm0zZaC
+<http://webprotege.stanford.edu/R83geWjPno4je9PvZm0zZaC> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB>
+                                                                         ] ;
+                                                         rdfs:label "PartisanBias"@en ;
+                                                         <http://www.w3.org/2004/02/skos/core#definition> "Perceived bias of the publisher in selection of how news is reported and covered"@en .
+
+
+###  http://webprotege.stanford.edu/R8GexTieFm0zHsgts78Xl1M
+<http://webprotege.stanford.edu/R8GexTieFm0zHsgts78Xl1M> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7I5QvZC8Zi05rTsXwM6Ck3> ,
+                                                                         <http://webprotege.stanford.edu/R9lWAAXnXKmQ0iSAIs26Efb> ;
+                                                         rdfs:label "DebiasingTechnique"@en .
+
+
+###  http://webprotege.stanford.edu/R8OeHy6yWQC627MW0XP7cdD
+<http://webprotege.stanford.edu/R8OeHy6yWQC627MW0XP7cdD> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                         ] ;
+                                                         rdfs:label "FairnessThroughAwareness"@en .
+
+
+###  http://webprotege.stanford.edu/R8U4PpUiuyDwB89Gs0CR8yH
+<http://webprotege.stanford.edu/R8U4PpUiuyDwB89Gs0CR8yH> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB>
+                                                                         ] ;
+                                                         rdfs:label "BehavioralBias"@en .
+
+
+###  http://webprotege.stanford.edu/R8WukWNeuTPzID6pnGkiSzL
+<http://webprotege.stanford.edu/R8WukWNeuTPzID6pnGkiSzL> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RC62eUhX5vHIhM2WrA5IOv9> ;
+                                                         rdfs:label "DirectDiscrimination"@en .
+
+
+###  http://webprotege.stanford.edu/R8XPSoK0czF7IH4hayOpEeS
+<http://webprotege.stanford.edu/R8XPSoK0czF7IH4hayOpEeS> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB>
+                                                                         ] ;
+                                                         rdfs:label "Prejudice"@en .
+
+
+###  http://webprotege.stanford.edu/R8g0TnyuxXG7paZd6GKNV4D
+<http://webprotege.stanford.edu/R8g0TnyuxXG7paZd6GKNV4D> rdf:type owl:Class ;
+                                                         rdfs:label "DIVERSITY"@en ;
+                                                         <http://www.w3.org/2004/02/skos/core#definition> "Ensuring that all different kinds of entities are considered and represented in the output of an algorithmic process."@en .
+
+
+###  http://webprotege.stanford.edu/R8qBpsTx4m2Red8OZF0ENWa
+<http://webprotege.stanford.edu/R8qBpsTx4m2Red8OZF0ENWa> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                         ] ;
+                                                         rdfs:comment "FalsePositiveErrorRateBalance"^^xsd:string ;
+                                                         rdfs:label "PredictiveEquality"@en .
+
+
+###  http://webprotege.stanford.edu/R8qG9nvF1La31RwCdtrJ3oZ
+<http://webprotege.stanford.edu/R8qG9nvF1La31RwCdtrJ3oZ> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL>
+                                                                         ] ;
+                                                         rdfs:label "LongitudinalDataFallacy"@en .
+
+
+###  http://webprotege.stanford.edu/R92Hlji9vS7dnCj3yJtyVwF
+<http://webprotege.stanford.edu/R92Hlji9vS7dnCj3yJtyVwF> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                         ] ;
+                                                         rdfs:label "CounterfactualFairness"@en .
+
+
+###  http://webprotege.stanford.edu/R9WhWhg2ZHTWwrVwiISHIya
+<http://webprotege.stanford.edu/R9WhWhg2ZHTWwrVwiISHIya> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL>
+                                                                         ] ;
+                                                         rdfs:label "MeasurementBias"@en .
+
+
+###  http://webprotege.stanford.edu/R9emciEVUCL8PK2II8RJzaQ
+<http://webprotege.stanford.edu/R9emciEVUCL8PK2II8RJzaQ> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                         ] ;
+                                                         rdfs:label "EqualizedOdds"@en .
+
+
+###  http://webprotege.stanford.edu/R9hv4KxTiuR6CO7qPPItg5L
+<http://webprotege.stanford.edu/R9hv4KxTiuR6CO7qPPItg5L> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9lWAAXnXKmQ0iSAIs26Efb> ;
+                                                         rdfs:label "Task"@en .
+
+
+###  http://webprotege.stanford.edu/R9lWAAXnXKmQ0iSAIs26Efb
+<http://webprotege.stanford.edu/R9lWAAXnXKmQ0iSAIs26Efb> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9m8F7jcnO8gkfV4dzURArV> ;
+                                                         rdfs:label "Algorithm"@en .
+
+
+###  http://webprotege.stanford.edu/R9m8F7jcnO8gkfV4dzURArV
+<http://webprotege.stanford.edu/R9m8F7jcnO8gkfV4dzURArV> rdf:type owl:Class ;
+                                                         rdfs:label "FAIRNESS"@en ;
+                                                         <http://www.w3.org/2004/02/skos/core#definition> "Fairness may be defined as the condition or quality of being ‘fair’, or free from bias or injustice. However, fairness is an ethical value that goes beyond a single definition, as there are multiple interpretations for it, each subjected to the complex and ever-changing societal perspective."^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R9oPfbPjeIVu57JCrzfzPlx
+<http://webprotege.stanford.edu/R9oPfbPjeIVu57JCrzfzPlx> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB>
+                                                                         ] ;
+                                                         rdfs:label "NormativeBias"@en .
+
+
+###  http://webprotege.stanford.edu/R9pBVDL1ACxJdCrImLDXXx4
+<http://webprotege.stanford.edu/R9pBVDL1ACxJdCrImLDXXx4> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RC62eUhX5vHIhM2WrA5IOv9> ;
+                                                         rdfs:label "ExplainableDiscrimination"@en .
+
+
+###  http://webprotege.stanford.edu/RB0kCNuXXpB9hUY6thYrBxk
+<http://webprotege.stanford.edu/RB0kCNuXXpB9hUY6thYrBxk> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL>
+                                                                         ] ;
+                                                         rdfs:label "SamplingBias"@en .
+
+
+###  http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB
+<http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RMbL6TYZgKyjbqiHqar7ML> ;
+                                                         rdfs:label "CognitiveBias"@en ;
+                                                         <http://www.w3.org/2004/02/skos/core#definition> "A cognitive bias is a systematic pattern of deviation from norm or rationality in judgment."@en .
+
+
+###  http://webprotege.stanford.edu/RBFfFwobsHzOxBEzrKaOuJY
+<http://webprotege.stanford.edu/RBFfFwobsHzOxBEzrKaOuJY> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                         ] ;
+                                                         rdfs:label "CausalDiscrimination"@en .
+
+
+###  http://webprotege.stanford.edu/RBIB6LA3yfosMd9fQ3fAPhx
+<http://webprotege.stanford.edu/RBIB6LA3yfosMd9fQ3fAPhx> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                         ] ;
+                                                         rdfs:label "ConditionalUseAccuracyEquality"@en .
+
+
+###  http://webprotege.stanford.edu/RBMfA5Grl7BSLgtSMhomNLv
+<http://webprotege.stanford.edu/RBMfA5Grl7BSLgtSMhomNLv> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL>
+                                                                         ] ;
+                                                         rdfs:label "ObserverBias"@en .
+
+
+###  http://webprotege.stanford.edu/RBRnioX7qp0MOYsMNpT63eX
+<http://webprotege.stanford.edu/RBRnioX7qp0MOYsMNpT63eX> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RiXYvJ4rwLkJ8ztnVL6v8t> ;
+                                                         rdfs:label "DistanceBased"@en .
+
+
+###  http://webprotege.stanford.edu/RBUC0hoVGEaoxROJhzm8suK
+<http://webprotege.stanford.edu/RBUC0hoVGEaoxROJhzm8suK> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RiXYvJ4rwLkJ8ztnVL6v8t> ;
+                                                         rdfs:label "CoverageBased"@en .
+
+
+###  http://webprotege.stanford.edu/RBW7rjrLss7sNfnQozRhg84
+<http://webprotege.stanford.edu/RBW7rjrLss7sNfnQozRhg84> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL>
+                                                                         ] ;
+                                                         rdfs:label "LinkingBias"@en .
+
+
+###  http://webprotege.stanford.edu/RBgkFOmzf8no8ntfNnQ3do
+<http://webprotege.stanford.edu/RBgkFOmzf8no8ntfNnQ3do> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8GexTieFm0zHsgts78Xl1M> ;
+                                                        rdfs:label "InProcessing"@en ;
+                                                        <http://www.w3.org/2004/02/skos/core#comment> "In-processing approaches recognize that modeling techniques often become biased by dominant features, other distributional effects, or try to find a balance between multiple model objectives by incorporating one or more fairness metrics into the model optimization functions."^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RBhWnWLHAmrIebnRJwDZbC2
+<http://webprotege.stanford.edu/RBhWnWLHAmrIebnRJwDZbC2> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                         ] ;
+                                                         rdfs:label "NoProxyDiscrimination"@en .
+
+
+###  http://webprotege.stanford.edu/RBvK3M7jRBAoKqPRzmLlh5l
+<http://webprotege.stanford.edu/RBvK3M7jRBAoKqPRzmLlh5l> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB>
+                                                                         ] ;
+                                                         rdfs:label "InstitutionalBias"@en .
+
+
+###  http://webprotege.stanford.edu/RC268Zels1g5bGmIE28xUFs
+<http://webprotege.stanford.edu/RC268Zels1g5bGmIE28xUFs> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9m8F7jcnO8gkfV4dzURArV> ;
+                                                         rdfs:label "IndividualFairness"@en ;
+                                                         <http://www.w3.org/2004/02/skos/core#comment> "Individual fairness is what addresses that similar individuals be treated equally when it comes to performing a task."^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RC4yay7nhwfH8wpAYFYvzBQ
+<http://webprotege.stanford.edu/RC4yay7nhwfH8wpAYFYvzBQ> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                         ] ;
+                                                         rdfs:label "FairnessThroughUnawareness"@en .
+
+
+###  http://webprotege.stanford.edu/RC5Ak2ZBaBHSPa7xmJRGoHg
+<http://webprotege.stanford.edu/RC5Ak2ZBaBHSPa7xmJRGoHg> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                         ] ;
+                                                         rdfs:label "NoUnresolvedDiscrimination"@en .
+
+
+###  http://webprotege.stanford.edu/RC62eUhX5vHIhM2WrA5IOv9
+<http://webprotege.stanford.edu/RC62eUhX5vHIhM2WrA5IOv9> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9m8F7jcnO8gkfV4dzURArV> ;
+                                                         rdfs:label "Discrimination"@en .
+
+
+###  http://webprotege.stanford.edu/RC8IaYYhmWZt7WERf8oILeN
+<http://webprotege.stanford.edu/RC8IaYYhmWZt7WERf8oILeN> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9m8F7jcnO8gkfV4dzURArV> ;
+                                                         rdfs:label "SocialConcept"@en .
+
+
+###  http://webprotege.stanford.edu/RC9WT74079NY8KRq1nBkPbv
+<http://webprotege.stanford.edu/RC9WT74079NY8KRq1nBkPbv> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB>
+                                                                         ] ;
+                                                         rdfs:label "HistoricalPerception"@en .
+
+
+###  http://webprotege.stanford.edu/RCK9dSG7wiL13c9Gs2zEqY
+<http://webprotege.stanford.edu/RCK9dSG7wiL13c9Gs2zEqY> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                        ] ;
+                                                        rdfs:comment "FalseNegativeErrorRateBalance"^^xsd:string ;
+                                                        rdfs:label "EqualOpportunity"@en .
+
+
+###  http://webprotege.stanford.edu/RCTFcrhxcvJMTEHiDwv7WtX
+<http://webprotege.stanford.edu/RCTFcrhxcvJMTEHiDwv7WtX> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RC62eUhX5vHIhM2WrA5IOv9> ;
+                                                         rdfs:label "UnexplainableDiscrimination"@en .
+
+
+###  http://webprotege.stanford.edu/RCUgdTkBerTxLvUfr6ODUjX
+<http://webprotege.stanford.edu/RCUgdTkBerTxLvUfr6ODUjX> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                         ] ;
+                                                         rdfs:label "Statistical Parity"@en ;
+                                                         rdfs:seeAlso "DemographicParity"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL
+<http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RMbL6TYZgKyjbqiHqar7ML> ;
+                                                         rdfs:label "StatisticalBias"@en .
+
+
+###  http://webprotege.stanford.edu/RClWSDGpdhnAvvXWP5UThvp
+<http://webprotege.stanford.edu/RClWSDGpdhnAvvXWP5UThvp> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7I5QvZC8Zi05rTsXwM6Ck3> ;
+                                                         rdfs:label "Provenance"@en ;
+                                                         <http://www.w3.org/2004/02/skos/core#definition> "Provenance is concerned with the origin of the digital content."@en .
+
+
+###  http://webprotege.stanford.edu/RCq9YnWJfqqrps354Zc66bL
+<http://webprotege.stanford.edu/RCq9YnWJfqqrps354Zc66bL> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RClWSDGpdhnAvvXWP5UThvp> ;
+                                                         rdfs:label "Creator"@en .
+
+
+###  http://webprotege.stanford.edu/RCqcQR6eCd2TrOQYApqpFdt
+<http://webprotege.stanford.edu/RCqcQR6eCd2TrOQYApqpFdt> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                         ] ;
+                                                         rdfs:label "PredictiveParity"@en .
+
+
+###  http://webprotege.stanford.edu/RCuOdbXR2ROADZELlPinkSx
+<http://webprotege.stanford.edu/RCuOdbXR2ROADZELlPinkSx> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL>
+                                                                         ] ;
+                                                         rdfs:label "PopulationBias"@en .
+
+
+###  http://webprotege.stanford.edu/RCyVEYB5bJ5YwWrJJHL7WN8
+<http://webprotege.stanford.edu/RCyVEYB5bJ5YwWrJJHL7WN8> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL>
+                                                                         ] ;
+                                                         rdfs:label "SimpsonsParadox"@en .
+
+
+###  http://webprotege.stanford.edu/RDKSYZdMMwoL2FyUJVdfKRs
+<http://webprotege.stanford.edu/RDKSYZdMMwoL2FyUJVdfKRs> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8GexTieFm0zHsgts78Xl1M> ;
+                                                         rdfs:label "PostProcessing"@en ;
+                                                         <http://www.w3.org/2004/02/skos/core#comment> "Post-processing approaches recognize that the actual output of an ML model may be unfair to one or more protected variables and/or subgroup(s) within the protected variable. Thus, post-processing approaches tend to apply transformations to model output to improve prediction fairness."@en .
+
+
+###  http://webprotege.stanford.edu/RDOct1rsh7BhrKAep5MrDwr
+<http://webprotege.stanford.edu/RDOct1rsh7BhrKAep5MrDwr> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB>
+                                                                         ] ;
+                                                         rdfs:label "TemporalBias"@en .
+
+
+###  http://webprotege.stanford.edu/RDUvF2TijdTYSGr0aqB9LGW
+<http://webprotege.stanford.edu/RDUvF2TijdTYSGr0aqB9LGW> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL>
+                                                                         ] ;
+                                                         rdfs:label "RepresentationBias"@en .
+
+
+###  http://webprotege.stanford.edu/RDdCxwUgCkixHDwjl05rU4R
+<http://webprotege.stanford.edu/RDdCxwUgCkixHDwjl05rU4R> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                         ] ;
+                                                         rdfs:label "TestFairness"@en .
+
+
+###  http://webprotege.stanford.edu/RDeOLJoEg9PYXWMWIKsWNQq
+<http://webprotege.stanford.edu/RDeOLJoEg9PYXWMWIKsWNQq> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                         ] ;
+                                                         rdfs:label "FairInference"@en .
+
+
+###  http://webprotege.stanford.edu/RDeiPPtH9r2EvILamJ1xxCn
+<http://webprotege.stanford.edu/RDeiPPtH9r2EvILamJ1xxCn> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                         ] ;
+                                                         rdfs:label "OverallAccuracyEquality"@en .
+
+
+###  http://webprotege.stanford.edu/RDoc846CN4LSADN7jDgbvFP
+<http://webprotege.stanford.edu/RDoc846CN4LSADN7jDgbvFP> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB>
+                                                                         ] ;
+                                                         rdfs:label "AnnotatorBias"@en .
+
+
+###  http://webprotege.stanford.edu/RMbL6TYZgKyjbqiHqar7ML
+<http://webprotege.stanford.edu/RMbL6TYZgKyjbqiHqar7ML> rdf:type owl:Class ;
+                                                        rdfs:label "BIAS"@en ;
+                                                        <http://www.w3.org/2004/02/skos/core#definition> "an inclination of temperament or outlook,deviation of the expected value"@en .
+
+
+###  http://webprotege.stanford.edu/RMvD9I8vscLaTTTrjFM6PW
+<http://webprotege.stanford.edu/RMvD9I8vscLaTTTrjFM6PW> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                        ] ;
+                                                        rdfs:label "WellCalibration"@en .
+
+
+###  http://webprotege.stanford.edu/RPy2jPe1YtFzhpTegK6KIg
+<http://webprotege.stanford.edu/RPy2jPe1YtFzhpTegK6KIg> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL>
+                                                                        ] ;
+                                                        rdfs:label "AggregationBias"@en .
+
+
+###  http://webprotege.stanford.edu/RQf8i6iXcVT7vQAkHNxAa8
+<http://webprotege.stanford.edu/RQf8i6iXcVT7vQAkHNxAa8> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB>
+                                                                        ] ;
+                                                        rdfs:label "BeliefBias"@en .
+
+
+###  http://webprotege.stanford.edu/RXRnfgNoiPdV0DyobdRtoH
+<http://webprotege.stanford.edu/RXRnfgNoiPdV0DyobdRtoH> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                        ] ;
+                                                        rdfs:label "BalanceForNegativeClass"@en .
+
+
+###  http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK
+<http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R9m8F7jcnO8gkfV4dzURArV> ;
+                                                        rdfs:label "StatisticalConcept"@en .
+
+
+###  http://webprotege.stanford.edu/RYG8RkWdscnJtYEAPpS5LD
+<http://webprotege.stanford.edu/RYG8RkWdscnJtYEAPpS5LD> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                        ] ;
+                                                        rdfs:label "DemographicParity"@en ;
+                                                        rdfs:seeAlso "StatisticalParity"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RZpGlTMFqqHmQBirJwlXQG
+<http://webprotege.stanford.edu/RZpGlTMFqqHmQBirJwlXQG> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB>
+                                                                        ] ;
+                                                        rdfs:label "AutomationBias"@en .
+
+
+###  http://webprotege.stanford.edu/Ra0nty9cKSHysG180HZWnf
+<http://webprotege.stanford.edu/Ra0nty9cKSHysG180HZWnf> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                        ] ;
+                                                        rdfs:label "BalanceForPositiveClass"@en .
+
+
+###  http://webprotege.stanford.edu/RdliU9eHhJTIa0v9b7hRDy
+<http://webprotege.stanford.edu/RdliU9eHhJTIa0v9b7hRDy> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB>
+                                                                        ] ;
+                                                        rdfs:label "FunctionalBias"@en .
+
+
+###  http://webprotege.stanford.edu/RiXYvJ4rwLkJ8ztnVL6v8t
+<http://webprotege.stanford.edu/RiXYvJ4rwLkJ8ztnVL6v8t> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8g0TnyuxXG7paZd6GKNV4D> ;
+                                                        rdfs:label "DiversityMeasurement"@en .
+
+
+###  http://webprotege.stanford.edu/Rjg2g1WN9K1ajVCfruzrfo
+<http://webprotege.stanford.edu/Rjg2g1WN9K1ajVCfruzrfo> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RC62eUhX5vHIhM2WrA5IOv9> ;
+                                                        rdfs:label "StatisticalDiscrimination"@en .
+
+
+###  http://webprotege.stanford.edu/RkxSuTnhikPqjE8cFfpVBn
+<http://webprotege.stanford.edu/RkxSuTnhikPqjE8cFfpVBn> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RXa8xicPZajmj7KiO5CpcK>
+                                                                        ] ;
+                                                        rdfs:label "TreatmentEquality"@en .
+
+
+###  http://webprotege.stanford.edu/RlVuEYDxMRVpu2nuIqhVrt
+<http://webprotege.stanford.edu/RlVuEYDxMRVpu2nuIqhVrt> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RC62eUhX5vHIhM2WrA5IOv9> ;
+                                                        rdfs:label "SystemicDiscrimination"@en .
+
+
+###  http://webprotege.stanford.edu/RmOlyEV9nBUiRGABdG0LRu
+<http://webprotege.stanford.edu/RmOlyEV9nBUiRGABdG0LRu> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RYG8RkWdscnJtYEAPpS5LD> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RYG8RkWdscnJtYEAPpS5LD>
+                                                                        ] ;
+                                                        rdfs:label "ConditionalStatisticalParity"@en .
+
+
+###  http://webprotege.stanford.edu/Rtz1niwbiphwtIIsv33wx8
+<http://webprotege.stanford.edu/Rtz1niwbiphwtIIsv33wx8> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RCjPQha8cHDseczW2Zx6GYL>
+                                                                        ] ;
+                                                        rdfs:label "EvaluationBias"@en .
+
+
+###  http://webprotege.stanford.edu/RvSJKTs2Pc1XnHQGZGtJHj
+<http://webprotege.stanford.edu/RvSJKTs2Pc1XnHQGZGtJHj> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8GexTieFm0zHsgts78Xl1M> ;
+                                                        rdfs:label "PreProcessing"@en ;
+                                                        <http://www.w3.org/2004/02/skos/core#comment> "Pre-processing approaches recognize that often an issue is the data itself, and the distributions of specific sensitive or protected variables are biased, discriminatory, and/or imbalanced."^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RwwFCvNTiu4wOYzsbV4KNS
+<http://webprotege.stanford.edu/RwwFCvNTiu4wOYzsbV4KNS> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R7T4aBJ4LSQQE8DdPs7Ogcv> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RBCc99rebXxhZsBFLf1WdzB>
+                                                                        ] ;
+                                                        rdfs:label "Stereotyping"@en .
+
+
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
